@@ -7,6 +7,9 @@ body {
     color: #333333;
 
 }
+button, input{
+    cursor: pointer;
+}
 
 h1 h2 h3 h4 h5 h6 {
     font-family: 'Montserrat' sans-serif;
@@ -409,4 +412,73 @@ header nav {
     width: 309px;
     text-align: center;
     color: #333333;
+}
+
+footer {
+    background-color: #000000;
+    padding: 69px 0 75px;
+}
+
+footer .conteiner {
+    max-width: 564px;
+}
+
+input,
+textarea {
+    font-style: italic;
+
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    line-height: 22px;
+    background: rgba(255, 255, 255, 0.2);
+
+    color: #FFFFFF;
+    padding: 18px 30px 17px;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #FFFFFF;
+}
+
+input:nth-of-type(odd) {
+    background: rgba(255, 255, 255, 0.18);
+
+}
+
+textarea {
+    resize: none;
+    height: 127px;
+    margin-bottom: 20px;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+form button {
+    
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #8BCAC3;
+    padding: 13px 34px 20px;
+    display: block;
+    margin: 0 auto;
+    background-color:#000000; 
+    border: 1px solid #8BCAC3;
+    border-bottom-width: 2px;
+    padding: 15px 34px 16px;
+    max-width: 210px;
+    width: 100%;
+    
 }
