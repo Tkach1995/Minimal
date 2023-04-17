@@ -197,24 +197,29 @@ header nav {
     margin-bottom: 28px;
 }
 
-.cec-4 {
+
+.sec-4 {
     padding: 79px 0;
     background: #F5F5F5;
 }
 
-.cec-4 h2 {
+.sec-4 h2 {
     margin-bottom: 28px;
 }
 
-.cec-4 img:not(:first-child) {
-    margin-left: 20px;
-}
 
-.cec-4 p {
+
+.sec-4 p {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #333333;
+}
+.sec-4 .d-flex{
+    justify-content: space-between;
+}
+.sec-4 img{
+    margin-right: 20px;
 }
 
 .text-imj-1 {
@@ -225,6 +230,8 @@ header nav {
     padding-right: 113.5px;
     text-align: center;
     background-color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
 
 }
 
@@ -232,7 +239,8 @@ header nav {
     text-align: center;
     padding: 19px 92px 21px 80px;
     background-color: #FFFFFF;
-    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .text-imj-3 {
@@ -241,12 +249,11 @@ header nav {
     padding-left: 105px;
     padding-right: 110px;
     background-color: #FFFFFF;
-    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
 }
 
-.secondary {
-    margin-top: 20px;
-}
+
 
 .text-imj-4 {
     padding-top: 19px;
@@ -255,6 +262,8 @@ header nav {
     padding-right: 113.5px;
     text-align: center;
     background-color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
 }
 
 .text-imj-5 {
@@ -264,7 +273,8 @@ header nav {
     padding-left: 120px;
     padding-right: 129px;
     background-color: #FFFFFF;
-    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .text-imj-6 {
@@ -274,12 +284,11 @@ header nav {
     padding-left: 120px;
     padding-right: 125px;
     background-color: #FFFFFF;
-    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
 }
 
-.third {
-    margin-top: 20px;
-}
+
 
 .text-imj-7 {
     padding-top: 19px;
@@ -288,6 +297,8 @@ header nav {
     padding-right: 137.5px;
     text-align: center;
     background-color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
 }
 
 .text-imj-8 {
@@ -297,7 +308,8 @@ header nav {
     padding-left: 103px;
     padding-right: 111px;
     background-color: #FFFFFF;
-    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .text-imj-9 {
@@ -307,7 +319,8 @@ header nav {
     padding-left: 120px;
     padding-right: 111.5px;
     background-color: #FFFFFF;
-    margin-left: 20px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .cec-5 {
